@@ -1,0 +1,93 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		641BE0EEF58B3F722E8A6FF7 /* DailyDoseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B256F912DB759EBF59F18EB /* DailyDoseApp.swift */; };
+		6CB55A061B030AF4A3E816D3 /* AppStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FF74BE1A22B8D304F789AB /* AppStore.swift */; };
+		7B04BE9F0788BCC0F0AE8E1B /* Medication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62C3FFDFB2795C1EA32F8367 /* Medication.swift */; };
+		D9857CE7442480755AB00AC6 /* DoseLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A005A5BDC33F4153ED93671 /* DoseLog.swift */; };
+		8FB1B39187729C58B1BC31B0 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40E5D8A41345D06B74340A6 /* SplashView.swift */; };
+		DE5326AF0B435632F1416CE5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6079A5441817B14728798537 /* ContentView.swift */; };
+		033AFDCD7E8D11260741AC0F /* TodayScheduleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C7680CA480A7189240DAE10 /* TodayScheduleView.swift */; };
+		57DB27F8DD850D8710DD48C2 /* DoseRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3519E3AF2308FDC2B8DC6FEB /* DoseRowView.swift */; };
+		CCB8FC6371746C4CE2566EDE /* AddMedicationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 809090E1AF03597928A90E22 /* AddMedicationView.swift */; };
+		F8AFCE7E733B48AAAF766294 /* MedicationHistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 626B1306F28CD14E417AA764 /* MedicationHistoryView.swift */; };
+		418356870D2FA57699AB8AD5 /* HistoryRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4871D33C7ACFD240828A8A9 /* HistoryRowView.swift */; };
+		2F41F2CFAEDC895330792C7D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8C108ED6ED84BD14BA20AF3 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4C81B82C2FC9DDEECDDF3F46 /* DailyDose.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DailyDose.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8C108ED6ED84BD14BA20AF3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8DC3AD1AABA5FD41C17392C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B256F912DB759EBF59F18EB /* DailyDoseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyDoseApp.swift; sourceTree = "<group>"; };
+		52FF74BE1A22B8D304F789AB /* AppStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStore.swift; sourceTree = "<group>"; };
+		62C3FFDFB2795C1EA32F8367 /* Medication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Medication.swift; sourceTree = "<group>"; };
+		6A005A5BDC33F4153ED93671 /* DoseLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoseLog.swift; sourceTree = "<group>"; };
+		E40E5D8A41345D06B74340A6 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		6079A5441817B14728798537 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7C7680CA480A7189240DAE10 /* TodayScheduleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayScheduleView.swift; sourceTree = "<group>"; };
+		3519E3AF2308FDC2B8DC6FEB /* DoseRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoseRowView.swift; sourceTree = "<group>"; };
+		809090E1AF03597928A90E22 /* AddMedicationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMedicationView.swift; sourceTree = "<group>"; };
+		626B1306F28CD14E417AA764 /* MedicationHistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicationHistoryView.swift; sourceTree = "<group>"; };
+		D4871D33C7ACFD240828A8A9 /* HistoryRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryRowView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C85CF34285155D17E6814EA1 = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = ( ); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CC6E9A97105087A585318B9F = {isa = PBXGroup; children = ( 87E1E5572DA385E98EEB08BF /* DailyDose */, 70A7169BF74F4117B972BA81 /* Products */, ); sourceTree = "<group>"; };
+		87E1E5572DA385E98EEB08BF = {isa = PBXGroup; children = ( F8C108ED6ED84BD14BA20AF3 /* Assets.xcassets */, 8DC3AD1AABA5FD41C17392C6 /* Info.plist */, 8B256F912DB759EBF59F18EB /* DailyDoseApp.swift */, 52FF74BE1A22B8D304F789AB /* AppStore.swift */, 62C3FFDFB2795C1EA32F8367 /* Medication.swift */, 6A005A5BDC33F4153ED93671 /* DoseLog.swift */, E40E5D8A41345D06B74340A6 /* SplashView.swift */, 6079A5441817B14728798537 /* ContentView.swift */, 7C7680CA480A7189240DAE10 /* TodayScheduleView.swift */, 3519E3AF2308FDC2B8DC6FEB /* DoseRowView.swift */, 809090E1AF03597928A90E22 /* AddMedicationView.swift */, 626B1306F28CD14E417AA764 /* MedicationHistoryView.swift */, D4871D33C7ACFD240828A8A9 /* HistoryRowView.swift */, ); path = DailyDose; sourceTree = "<group>"; };
+		70A7169BF74F4117B972BA81 = {isa = PBXGroup; children = ( 4C81B82C2FC9DDEECDDF3F46 /* DailyDose.app */, ); name = Products; sourceTree = "<group>"; };
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		17206AD5004F32D1DFC3A7AA /* DailyDose */ = {isa = PBXNativeTarget; buildConfigurationList = 66CF53BC7E50312C01D5812C /* Build configuration list for PBXNativeTarget "DailyDose" */; buildPhases = ( 46B3DB6C61FE633AEF0A8971 /* Sources */, C85CF34285155D17E6814EA1 /* Frameworks */, CDA9974105B9A4346CA22860 /* Resources */, ); buildRules = ( ); dependencies = ( ); name = DailyDose; productName = DailyDose; productReference = 4C81B82C2FC9DDEECDDF3F46 /* DailyDose.app */; productType = "com.apple.product-type.application"; };
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D97684227C3CD3A052434BEF /* Project object */ = {isa = PBXProject; buildConfigurationList = ECEECFFD6A3EC583401E4C14 /* Build configuration list for PBXProject "DailyDose" */; compatibilityVersion = "Xcode 15.0"; developmentRegion = en; hasScannedForEncodings = 0; mainGroup = CC6E9A97105087A585318B9F; productRefGroup = 70A7169BF74F4117B972BA81; projectDirPath = ""; projectRoot = ""; targets = ( 17206AD5004F32D1DFC3A7AA /* DailyDose */, ); };
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CDA9974105B9A4346CA22860 = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = ( 2F41F2CFAEDC895330792C7D /* Assets.xcassets in Resources */, ); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		46B3DB6C61FE633AEF0A8971 = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (
+			641BE0EEF58B3F722E8A6FF7 /* DailyDoseApp.swift in Sources */,
+			6CB55A061B030AF4A3E816D3 /* AppStore.swift in Sources */,
+			7B04BE9F0788BCC0F0AE8E1B /* Medication.swift in Sources */,
+			D9857CE7442480755AB00AC6 /* DoseLog.swift in Sources */,
+			8FB1B39187729C58B1BC31B0 /* SplashView.swift in Sources */,
+			DE5326AF0B435632F1416CE5 /* ContentView.swift in Sources */,
+			033AFDCD7E8D11260741AC0F /* TodayScheduleView.swift in Sources */,
+			57DB27F8DD850D8710DD48C2 /* DoseRowView.swift in Sources */,
+			CCB8FC6371746C4CE2566EDE /* AddMedicationView.swift in Sources */,
+			F8AFCE7E733B48AAAF766294 /* MedicationHistoryView.swift in Sources */,
+			418356870D2FA57699AB8AD5 /* HistoryRowView.swift in Sources */,
+		); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		51860CB39AE2DA55F34DA250 = {isa = XCBuildConfiguration; buildSettings = {IPHONEOS_DEPLOYMENT_TARGET = 16.0; SDKROOT = iphoneos; SWIFT_VERSION = 5.0;}; name = Debug; };
+		B67C7DB45C234C00124E9C7B = {isa = XCBuildConfiguration; buildSettings = {IPHONEOS_DEPLOYMENT_TARGET = 16.0; SDKROOT = iphoneos; SWIFT_VERSION = 5.0;}; name = Release; };
+		F135A9111A7ECE6BCFF34AD3 = {isa = XCBuildConfiguration; buildSettings = {ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon; CODE_SIGN_STYLE = Automatic; CURRENT_PROJECT_VERSION = 1; DEVELOPMENT_TEAM = ""; GENERATE_INFOPLIST_FILE = NO; INFOPLIST_FILE = DailyDose/Info.plist; IPHONEOS_DEPLOYMENT_TARGET = 16.0; PRODUCT_BUNDLE_IDENTIFIER = com.example.DailyDose; PRODUCT_NAME = "$(TARGET_NAME)"; SWIFT_VERSION = 5.0;}; name = Debug; };
+		3AC8207B9379C0C8DDA9D08F = {isa = XCBuildConfiguration; buildSettings = {ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon; CODE_SIGN_STYLE = Automatic; CURRENT_PROJECT_VERSION = 1; DEVELOPMENT_TEAM = ""; GENERATE_INFOPLIST_FILE = NO; INFOPLIST_FILE = DailyDose/Info.plist; IPHONEOS_DEPLOYMENT_TARGET = 16.0; PRODUCT_BUNDLE_IDENTIFIER = com.example.DailyDose; PRODUCT_NAME = "$(TARGET_NAME)"; SWIFT_VERSION = 5.0;}; name = Release; };
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ECEECFFD6A3EC583401E4C14 = {isa = XCConfigurationList; buildConfigurations = ( 51860CB39AE2DA55F34DA250 /* Debug */, B67C7DB45C234C00124E9C7B /* Release */, ); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		66CF53BC7E50312C01D5812C = {isa = XCConfigurationList; buildConfigurations = ( F135A9111A7ECE6BCFF34AD3 /* Debug */, 3AC8207B9379C0C8DDA9D08F /* Release */, ); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+/* End XCConfigurationList section */
+
+	};
+	rootObject = D97684227C3CD3A052434BEF /* Project object */;
+}
